@@ -1,13 +1,14 @@
 <?php
 
-$name = 'taguchi';
+// echo 10 + 3 . PHP_EOL;
+// echo 10 - 3 . PHP_EOL;
+// echo 10 * 3 . PHP_EOL;
+// echo 10 / 3 . PHP_EOL;
 
-// $text = <<<'EOT'
-  $text = <<<"EOT"
-  hello! $name
-    this is looooong
-  text!
+// echo 10 % 3 . PHP_EOL;
+// echo 10 ** 3 . PHP_EOL;
 
-  EOT;
+// echo 2 + 10 * 3 . PHP_EOL;
+// echo (2 + 10) * 3 . PHP_EOL;
 
-echo $text;
+echo 2 + '3' . PHP_EOL;
