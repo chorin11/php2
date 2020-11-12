@@ -1,11 +1,18 @@
 <?php
 
-$score = 40;
+$score = 60;
+$name = 'taguchi';
 
-if ($score >= 80) {
-  echo 'Great!' . PHP_EOL;
-} elseif ($score >= 60) {
-  echo 'Good!' . PHP_EOL;
-} else {
-  echo 'OK!' .PHP_EOL;
+// if ($score >= 50) {
+//   if ($name === 'taguchi') {
+//     echo 'Good job!' . PHP_EOL;
+//   }
+// }
+
+// && and なおかつ
+// || or もしくは
+// ! 〜ではない
+
+if ($score >= 50 && $name === 'taguchi') {
+  echo 'Good job!' . PHP_EOL;
 }
