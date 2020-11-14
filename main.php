@@ -1,13 +1,8 @@
 <?php
 
-$hp = -50;
-
-// while ($hp > 0) {
-//   echo "Your HP: $hp" . PHP_EOL;
-//   $hp -=15;
-// }
-
-do {
-  echo "Your HP: $hp" . PHP_EOL;
-  $hp -=15;
-} while ($hp > 0);
+for ($i =1; $i <= 10; $i++) {
+  if ( $i === 4 ) {
+    break;
+  }
+  echo $i . PHP_EOL;
+}
