@@ -1,16 +1,17 @@
 <?php
 
-function showAd() 
+function showAd($message = 'Ad') 
 {
   echo '----------' . PHP_EOL;
-  echo '--- Ad ---' . PHP_EOL;
+  echo '--- ' . $message . ' ---' . PHP_EOL;
   echo '----------' . PHP_EOL;
 }
 
-showAd();
+showAd('Header Ad');
 echo 'Tom is great!' . PHP_EOL;
 echo 'Bob is great!' . PHP_EOL;
+// showAd('Ad');
 showAd();
 echo 'Steve is great!' . PHP_EOL;
 echo 'Bob is great!' . PHP_EOL;
-showAd();
+showAd('Footer Ad');
