@@ -1,8 +1,16 @@
 <?php
 
-for ($i =1; $i <= 10; $i++) {
-  if ( $i === 4 ) {
-    break;
-  }
-  echo $i . PHP_EOL;
+function showAd() 
+{
+  echo '----------' . PHP_EOL;
+  echo '--- Ad ---' . PHP_EOL;
+  echo '----------' . PHP_EOL;
 }
+
+showAd();
+echo 'Tom is great!' . PHP_EOL;
+echo 'Bob is great!' . PHP_EOL;
+showAd();
+echo 'Steve is great!' . PHP_EOL;
+echo 'Bob is great!' . PHP_EOL;
+showAd();
