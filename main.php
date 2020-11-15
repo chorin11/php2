@@ -1,17 +1,12 @@
 <?php
 
-function showAd($message = 'Ad') 
+function sum($a, $b, $c)
 {
-  echo '----------' . PHP_EOL;
-  echo '--- ' . $message . ' ---' . PHP_EOL;
-  echo '----------' . PHP_EOL;
+  return $a + $b + $c;
+  echo 'Here!' . PHP_EOL;
 }
 
-showAd('Header Ad');
-echo 'Tom is great!' . PHP_EOL;
-echo 'Bob is great!' . PHP_EOL;
-// showAd('Ad');
-showAd();
-echo 'Steve is great!' . PHP_EOL;
-echo 'Bob is great!' . PHP_EOL;
-showAd('Footer Ad');
+sum(100, 200, 300);
+sum(300, 400, 500);
+
+echo sum(100, 200, 300) + sum(300, 400, 500) . PHP_EOL;
