@@ -1,12 +1,12 @@
 <?php
 
+$rate = 1.1;
+
 function sum($a, $b, $c)
 {
-  return $a + $b + $c;
-  echo 'Here!' . PHP_EOL;
+  // global $rate;
+  $rate = 1.08;
+  return ($a + $b + $c) * $rate;
 }
-
-sum(100, 200, 300);
-sum(300, 400, 500);
 
 echo sum(100, 200, 300) + sum(300, 400, 500) . PHP_EOL;
