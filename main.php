@@ -1,16 +1,10 @@
 <?php
 
-$sum = function ($a, $b, $c) {
-  $total = $a + $b + $c;
+declare(strict_types=1);
 
-  // if ($total < 0) {
-  //   return 0;
-  // } else {
-  //   return $total;
-  // }
+function showInfo(string $name, int $score): void
+{
+  echo $name . ': ' . $score . PHP_EOL;
+}
 
-  return $total < 0 ? 0 : $total;
-};
-
-echo $sum (100, 300, 500) . PHP_EOL;
-echo $sum (-1000, 300, 500) . PHP_EOL;
+showInfo('taguchi', 4);
