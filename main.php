@@ -1,11 +1,10 @@
 <?php
 
-declare(strict_types=1);
+$scores = [
+  90,
+  40,
+  100,
+];
 
-function getAward($score): ?string
-{
-  return $score >= 100 ? 'Gold Medal' : null;
-}
-
-echo getAward(150) . PHP_EOL;
-echo getAward(40) . PHP_EOL;
+$scores[1] = 60;
+echo $scores[1] . PHP_EOL;
