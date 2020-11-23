@@ -6,7 +6,6 @@ $scores = [
   'third' => 100,
 ];
 
-// var_dump($scores);
-// print_r($scores);
-
-echo $scores['third'] . PHP_EOL;
+foreach ($scores as $key => $score) {
+  echo $key . ' - ' . $score . PHP_EOL;
+}
