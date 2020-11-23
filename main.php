@@ -1,11 +1,16 @@
 <?php
-
-$scores = [
-  'first' => 90,
-  'second' => 40,
-  'third' => 100,
+$moreScores = [
+  55,
+  72,
+  'perfect',
+  [90,42,88],
 ];
 
-foreach ($scores as $key => $score) {
-  echo $key . ' - ' . $score . PHP_EOL;
-}
+$scores = [
+  90,
+  40,
+  $moreScores,
+  100,
+];
+
+print_r($scores);
